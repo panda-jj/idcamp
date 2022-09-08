@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #cae5eb, #54c5de);
+    
+}
+
+.merah-muda {
+    background: linear-gradient(to right, #fdc5d1, #d4262e);
+}
+
+header {
+    margin-top: -18px;
+    height: 650px;
+}
+
+header img {
+    width: 600px;
+    margin-top: -10px;
+}
+
+nav {
+    background: linear-gradient(to right, #cae5eb, #54c5de);
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    top: 0;
+}
+
+nav ul li {
+    margin: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #182c61;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.kolom {
+    display: flex;
+    flex-grow: 2;
+}
+
+.kolom .welcome {
+    font-family: cursive;
+    margin: 20px;
+}
+
+.kolom .welcome input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.kolom .welcome img {
+    width: 40px;
+    margin: 20;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.welcome button {
+    font-family: cursive;
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(223, 117, 117);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #cef6ff;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+aside .about {
+    height: fit-content;
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    flex-grow: 3;
+}
+
+.about-satu {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-satu .parfum {
+    width: 400px;
+}
+.about-dua {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-dua .jam-tangan {
+    width: 400px;
+}
+.card {
+    box-sizing: border-box;
+    width: 400px;
+    border: 1 px solid #aaa;
+    margin: 10px;
+    flex:1;
+    box-shadow: 1px 1px 1px 1px rgb(94, 85, 85);
+    font-family: cursive;
+}
+
+.contact .header img {
+    width: 150px;
+    object-position: center;
+    margin: 120px;
+
+}
+
+.card .content {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+footer {
+    background-color: #32bad8;
+    height: 80px;
+}
+footer .footer p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 300px) {
+    .kolom {
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+    .kolom img {
+        width: 450px;
+    }
+    aside .about {
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+  }
+  
